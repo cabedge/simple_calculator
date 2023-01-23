@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.background{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 800px;
+}
+.headerBackground{
+    display: grid;
+    background-color: #e5e5e5;
+    grid-template-rows: repeat(3, 1fr);
+    border-radius: 10px 10px 0 0;
+}
+.mainScreen{
+    font-size: 50px;
+    font-weight: bold;
+    padding-right: 20px;
+    justify-self: end;
+}
+.secondScreen{
+    font-size: 40px;
+    padding-right: 20px;
+    justify-self: end;
+}
+.headerBackground h1{
+    font-size: 30px;
+    background-color: #a5a2a2;
+    color: #dd2020;
+    height: 40px;
+    border-radius: 10px 10px 0 0;
+}
+.buttonBackground{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #e5e5e5;
+    border-radius: 0 0 10px 10px;
+}
+.innerButtonBackground1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.innerButtonBackground1 button{
+    background-color: #bababa;
+    margin: 1px;
+    border-radius: 8px;
+    border: none;
+}
+.innerButtonBackground1 button:hover{
+    background-color: #dd2020;
+    color: white;
+    cursor: pointer;
+}
+.innerButtonBackground2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    min-width: 500px;
+}
+.innerButtonBackground2 button{
+    background-color: #a5a2a2;
+    margin: 1px;
+    border-radius: 8px;
+    border: none;
+}
+.innerButtonBackground2 button:hover{
+    background-color: #dd2020;
+    color: white;
+    cursor: pointer;
+}
+#equalCss{
+    background-color: black;
+    color: white;
+}
+#equalCss:hover{
+    background-color: #dd2020;
+}
